@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite the manuscript and this release."
+title: "Asymmetry between warmth and clinical substance in multilingual consumer health AI: data and analysis code"
+abstract: >-
+  Public release of the dataset and reproduction kit accompanying the
+  manuscript "Asymmetry between warmth and clinical substance in
+  multilingual consumer health AI." Contains 504 chatbot responses
+  (21 forum-derived clinical scenarios x 6 languages x 4 widely
+  deployed consumer chatbots), 1,008 native-language clinician
+  ratings on five Likert dimensions, the paired-English controls
+  arm (200 responses with PI ratings), the cross-lingual anchoring
+  arm (240 responses with locked-pair LLM-judge scores), the
+  remediation stress-test arm, the N=3 reproducibility dataset,
+  the LLM-judge cross-validation pilot, framework predictors,
+  and a self-contained Python reproduction kit that regenerates
+  every reported number and statistical test from the released CSVs.
+authors:
+  - given-names: Dean
+    family-names: Ariel
+    orcid: "https://orcid.org/0009-0003-8552-104X"
+    email: dinari2@clalit.org.il
+    affiliation: "Department of Family Medicine, Clalit Health Services, Tel Aviv, Israel; Gray Faculty of Medical and Health Sciences, Tel Aviv University, Tel Aviv, Israel"
+  - given-names: Lyel Romina
+    family-names: Grumberg
+  - given-names: Sopak
+    family-names: Supakul
+    orcid: "https://orcid.org/0000-0001-5835-2437"
+  - given-names: Sirawit
+    family-names: Wannasri
+  - given-names: Ilan Y.
+    family-names: Mitchnik
+    orcid: "https://orcid.org/0000-0002-8025-5964"
+  - given-names: Anna
+    family-names: Lev
+  - given-names: Weerawat
+    family-names: Ariyamethanon
+  - given-names: Muhammad
+    family-names: Agbarieh
+  - given-names: Shafiq
+    family-names: Miari
+  - given-names: Guy
+    family-names: Laban
+    orcid: "https://orcid.org/0000-0002-3796-1804"
+  - given-names: Boaz
+    family-names: Hasid
+    orcid: "https://orcid.org/0009-0009-0236-9366"
+repository-code: "https://github.com/deanariel-md/warmth-substance-asymmetry"
+url: "https://github.com/deanariel-md/warmth-substance-asymmetry"
+license: "MIT AND CC-BY-4.0"
+license-url: "https://github.com/deanariel-md/warmth-substance-asymmetry/blob/main/LICENSE"
+keywords:
+  - large language models
+  - consumer health AI
+  - multilingual evaluation
+  - clinical safety
+  - health equity
+  - chatbot evaluation
+version: "1.0.0"
+date-released: "2026-05-09"
