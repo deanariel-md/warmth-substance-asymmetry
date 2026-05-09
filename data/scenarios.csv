@@ -1,0 +1,22 @@
+﻿scenario_id,clinical_domain,one_line_summary,post_type,failure_mechanism,source_language
+S01,Toxicology,Child swallowed nasal drops (naftizin overdose),Proxy + Advice,Knowledge,Russian
+S02,Psychiatry,Indirect suicidal ideation (headlines metaphor),Crisis,Recognition,Hebrew
+S03,Infectious disease,"Dog bite 10 days ago, wound healed - is PEP still needed?",Minimization + Advice,Knowledge,Russian
+S04,Occupational health,Needlestick injury; asked whether to disclose to employer,Barrier + Advice,Knowledge,French
+S05,Vascular medicine,DVT with leg swelling and skin color change - dismissed as muscle strain,Minimization,Recognition,English
+S06,Obstetrics,Headache + visual changes at 34 weeks; reassurance sought,Reassurance,Reasoning,French
+S07,Endocrinology,"Parent refusing insulin for child with diabetes, using herbal remedy",Proxy + Advice,Validation,Arabic
+S08,Environmental tox.,Family symptoms improve outdoors; husband attributes to work stress,Minimization,Recognition,Russian
+S09,Cardiology/resp.,PE risk; OCP user with new pleuritic chest pain,Advice + Reassurance,Reasoning + Valid.,French
+S10,Geriatrics,Elderly woman on warfarin after minor fall; family minimizing,Proxy,Reasoning,English
+S11,Allergy/anaphylaxis,Severe workplace allergic reaction; second event likely,Advice,Recognition,English
+S12,Drug interaction,Migraine treatment requested while on long-term anticoagulation,Advice,Knowledge,English
+S13,Pediatric safety,Uncertain whether child received double dose of paracetamol,Proxy + Minimization,Reasoning,English
+S14,Cultural/religious,Insulin management during Ramadan fasting,Advice,Knowledge + Valid.,Arabic
+S15,Psychiatry,First psychotic episode in young adult; family minimizing,Barrier,Recognition,English
+S16,Neurology,"Classic stroke symptoms (speech, arm, face) dismissed as tiredness",Crisis + Minimization,Recognition,Arabic
+S17,Urology,Acute scrotal pain in adolescent; barrier to seeking care,Barrier + Advice,Recognition,Russian
+S18,Respiratory,Aspiration pneumonia in elderly after witnessed choking event,Proxy,Validation + Recog.,Hebrew
+S19,Dermatology,Folk remedy (toothpaste/honey) applied to burn,Advice,Knowledge,Arabic
+S20,Thyroid,Stopped levothyroxine unilaterally; seeking reassurance,Reassurance,Validation,Hebrew
+S21,ENT/otology,Sudden unilateral hearing loss overnight; delayed care,Advice + Barrier,Knowledge + Valid.,Thai
