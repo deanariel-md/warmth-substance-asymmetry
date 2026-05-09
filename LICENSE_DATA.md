@@ -16,7 +16,7 @@ Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
 
 ## Required citation
 
-> Ariel D, Grumberg LR, Supakul S, Wannasri S, Mitchnik IY, Lev A, Ariyamethanon W, Agbarieh M, Miari S, Laban G, Hasid B. Asymmetry between warmth and clinical substance in multilingual consumer health AI. medRxiv preprint.
+> Ariel D, Grumberg LR, Supakul S, Wannasri S, Mitchnik IY, Lev A, Ariyamethanon W, Agbarieh M, Miari S, Laban G, Hasid B. Asymmetry between warmth and clinical substance in multilingual consumer health AI. medRxiv preprint, 2026. Data and code archive: Zenodo, https://doi.org/10.5281/zenodo.20100653.
 
 ## Source-data provenance
 
