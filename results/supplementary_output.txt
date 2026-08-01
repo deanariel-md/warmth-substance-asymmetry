@@ -1,0 +1,75 @@
+[TABLE S3]  quadratic-weighted Cohen's kappa
+  English  0.704 0.750 0.621 0.736 0.529  row mean 0.668
+  French   0.816 0.727 0.804 0.637 0.637  row mean 0.724
+  Russian  0.816 0.768 0.777 0.785 0.674  row mean 0.764
+  Arabic   0.759 0.788 0.799 0.655 0.613  row mean 0.723
+  Hebrew   0.749 0.822 0.824 0.744 0.610  row mean 0.750
+  Thai     0.752 0.782 0.782 0.484 0.630  row mean 0.686
+  pooled mean over the 30 cells 0.7191  (range 0.484 to 0.824)
+
+[NOTE 1]  probability of superiority against English (response-level means)
+  English vs French   sub 0.432 | empathy 0.472
+  English vs Russian  sub 0.487 | empathy 0.485
+  English vs Arabic   sub 0.703 | empathy 0.595
+  English vs Hebrew   sub 0.718 | empathy 0.492
+  English vs Thai     sub 0.896 | empathy 0.598
+
+[NOTE 1]  proportional-odds models on within-rater-centred empathy
+  safety             OR 1.00  p=0.992
+  clinical_accuracy  OR 0.97  p=0.684
+  referral           OR 1.00  p=0.985
+  cultural           OR 1.38  p=5.92e-07
+
+[NOTE 2]  empathy in the unsafe tail, with intervals
+  safety<=2.0  7/37 (18.9%) vs 89/467 (19.1%)  Fisher p=1.000  diff 95% CI [-0.133, +0.130]
+  safety<=2.5  10/56 (17.9%) vs 86/448 (19.2%)  Fisher p=1.000  diff 95% CI [-0.120, +0.093]
+  safety<=3.0  21/144 (14.6%) vs 75/360 (20.8%)  Fisher p=0.131  diff 95% CI [-0.134, +0.009]
+  Wilson 95% CI on 7/37: [0.095, 0.342]
+
+[NOTE 2]  residual empathy-safety correlation after centring
+  rater and scenario centred +0.041
+  rater-by-scenario cell centred +0.071
+
+[NOTE 2]  within-rater empathy-safety correlation, per rating assignment
+  R1   English  -0.102
+  R2   English  -0.169
+  R3   Hebrew   -0.127
+  R4   Hebrew   -0.094
+  R5   French   +0.018
+  R6   French   +0.164
+  R7   Russian  -0.094
+  R8   Russian  +0.039
+  R9   Arabic   -0.008
+  R10  Arabic   -0.140
+  R11  Thai     +0.236
+  R12  Thai     +0.118
+
+[RESULTS para 1]  equivalence margins for the empathy AUC
+    equivalence within max(AUC, 1-AUC) < 0.70: one-sided p = 0.0005
+    equivalence within max(AUC, 1-AUC) < 0.65: one-sided p = 0.0095
+    equivalence within max(AUC, 1-AUC) < 0.60: one-sided p = 0.1040
+  largest orientation-free AUC compatible with the data: max(AUC, 1-AUC) = 0.63
+
+[RESULTS para 1]  rubric anchoring of the empathy score
+  ratings with an unmet required empathy item: 685, of which 0 scored 4 or 5
+  ratings scoring 4 or 5: 299, of which 299 had both required empathy items credited
+  ratings with both credited: 323, of which 0 scored exactly 3
+  clinical side, ratings scoring safety 4 or above: 656, of which 225 had an unmet required item
+  score-checklist correlation, clinical: 0.691
+
+[NOTE 6]  source-context re-rating substudy
+  200 ratings by P01 of 40 English responses under 5 stated source contexts
+                           sub  empathy
+source_context_language                
+Arabic                   3.733    3.425
+French                   4.033    3.475
+Hebrew                   4.033    3.525
+Russian                  3.867    3.300
+Thai                     3.892    3.450
+  Friedman across contexts, sub      chi2=9.04 p=0.060
+  Friedman across contexts, empathy  chi2=4.59 p=0.332
+  intra-rater one-way ICC over 6 ratings of the same 40 texts, sub      0.635  (mean within-text range 1.17)
+  intra-rater one-way ICC over 6 ratings of the same 40 texts, empathy  0.422  (mean within-text range 1.23)
+  intra-rater one-way ICC, D 0.560  (mean within-text range 1.86)
+
+# done

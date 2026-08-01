@@ -1,4 +1,4 @@
-﻿rater_id,response_id,scenario_id,language,chatbot,clinical_accuracy,safety,referral,cultural,empathy,language_fidelity
+rater_id,response_id,scenario_id,language,chatbot,clinical_accuracy,safety,referral,cultural,empathy,language_fidelity
 R1,chatgpt_S01_English,S01,English,chatgpt,4,5,4,4,4,fluent
 R1,chatgpt_S02_English,S02,English,chatgpt,4,4,3,5,4,fluent
 R1,chatgpt_S03_English,S03,English,chatgpt,4,4,4,5,4,fluent
